@@ -6,3 +6,8 @@ jobs:
     steps:
       - run: echo "Hello World!!!"
       - run: echo "This is step number 2"
+  print-new-job-001:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "New Job 001"
+      - run: echo "The New Job test action done"
