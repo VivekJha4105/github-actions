@@ -8,4 +8,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
-      - run: node -v
+      - name: Install node_modules
+        run: npm
+      - name: Build Project
+        run: npm build
+      - name: Setup Finish
+        run: echo "All Done!"
