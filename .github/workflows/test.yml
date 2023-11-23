@@ -1,2 +1,24 @@
-hhjhj
-hjhjh
+# This is a comment
+
+mydata:
+  service: my project # This is a comment
+  test1: script1
+  test2: script2
+  myArray: [1, 2, 3, 4]
+
+  # Following is an array of objects.
+  myArray2:
+    # The - signifies that it an object.
+    - key1: value1
+      key1random: value1random
+    - key2: value2
+      key2random: value2random
+
+  # Multi line possible in yaml. Anything below pipe is multiline string.
+  yo: |
+    My name is Lin Fue aang 
+    I am years old
+    I have nothing of sort 
+    I also do not want to die.
+
+# This is a comment
